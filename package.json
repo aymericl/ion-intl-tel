@@ -1,25 +1,32 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "name": "@aymericl/ion-intl-tel",
-  "title": "Ion Intl Tel Input",
+  "title": "Ion Intl Tel",
   "private": false,
   "description": "This is an continuation of the original project from azzamasghar1 (https://github.com/azzamasghar1/ion-intl-tel-input) which includes new features and some much requested features",
   "author": {
-    "name": "Aymeric Laurent Guenver (Click-eat)",
+    "name": "Aymeric Laurent Guenver (Clicklab)",
     "url": "https://github.com/aymericl"
   },
   "license": "See license in LICENSE",
-  "homepage": "https://github.com/azzamasghar1/ion-intl-tel-input",
+  "homepage": "https://github.com/aymericl/ion-intl-tel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azzamasghar1/ion-intl-tel-input"
+    "url": "https://github.com/aymericl/ion-intl-tel"
   },
   "bugs": {
-    "url": "https://github.com/azzamasghar1/ion-intl-tel-input/issues"
+    "url": "https://github.com/aymericl/ion-intl-tel/issues"
   },
   "keywords": [
-    "ionic 7",
-    "ion-intl-tel-input",
+    "ionic",
+    "ionic 2",
+    "ionic 3",
+    "ionic 4",
+    "ionic 5",
+    "ionic 6",
+    "Angular 16",
+    "Angular 17",
+    "ion-intl-tel",
     "intl tel input",
     "intl",
     "tel",
@@ -31,8 +38,59 @@
     "number",
     "elktech"
   ],
-  "peerDependencies": {
-    "flag-icons": "^7.0.0",
-    "libphonenumber-js": "^1.10.52"
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build_lib": "ng build ion-intl-tel",
+    "serve_lib": "ng build ion-intl-tel --watch",
+    "npm_pack": "cd dist/ion-intl-tel && npm pack",
+    "package": "npm run build_lib && npm run npm_pack",
+    "publish": "npm run package && cd dist/ion-intl-tel && npm publish"
+  },
+  "dependencies": {
+    "@angular/cdk": "^16.2.8",
+    "@angular/common": "~17.0.7",
+    "@angular/core": "~17.0.7",
+    "@angular/forms": "~17.0.7",
+    "@angular/platform-browser": "~17.0.7",
+    "@angular/platform-browser-dynamic": "~17.0.7",
+    "@angular/router": "~17.0.7",
+    "@ionic/angular": "^6.1.4",
+    "core-js": "^3.34.0",
+    "libphonenumber-js": "^1.10.52",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "^0.14.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "~0.1700.7",
+    "@angular-devkit/build-angular": "~17.0.7",
+    "@angular-devkit/core": "~17.0.7",
+    "@angular-devkit/schematics": "~17.0.7",
+    "@angular/cli": "~17.0.7",
+    "@angular/compiler": "~17.0.7",
+    "@angular/compiler-cli": "~17.0.7",
+    "@angular/language-service": "~17.0.7",
+    "@ionic/angular-toolkit": "^10.0.0",
+    "@ionic/lab": "3.2.15",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^16.0.0",
+    "codelyzer": "^6.0.2",
+    "jasmine-core": "~4.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.3.2",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "ng-packagr": "^17.0.3",
+    "protractor": "~7.0.0",
+    "ts-node": "~10.9.2",
+    "typescript": "5.2.2"
   }
 }

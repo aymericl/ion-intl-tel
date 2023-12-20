@@ -1,0 +1,38 @@
+{
+  "version": "2.3.0",
+  "name": "@aymericl/ion-intl-tel",
+  "title": "Ion Intl Tel",
+  "private": false,
+  "description": "This is an continuation of the original project from azzamasghar1 (https://github.com/azzamasghar1/ion-intl-tel-input) which includes new features and some much requested features",
+  "author": {
+    "name": "Aymeric Laurent Guenver (Clicklab)",
+    "url": "https://github.com/aymericl"
+  },
+  "license": "See license in LICENSE",
+  "homepage": "https://github.com/aymericl/ion-intl-tel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aymericl/ion-intl-tel"
+  },
+  "bugs": {
+    "url": "https://github.com/aymericl/ion-intl-tel/issues"
+  },
+  "keywords": [
+    "ionic 6",
+    "ion-intl-tel",
+    "intl tel input",
+    "intl",
+    "tel",
+    "input",
+    "international",
+    "phone",
+    "phonenumber",
+    "telephone",
+    "number",
+    "elktech"
+  ],
+  "peerDependencies": {
+    "flag-icons": "^7.0.0",
+    "libphonenumber-js": "^1.10.52"
+  }
+}
