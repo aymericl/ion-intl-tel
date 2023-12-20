@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">
+      {{title}}
+    </ion-title>
+
+    <ion-buttons [slot]="closeButtonSlot">
+      <ion-button (click)="closeModal()">{{closeButtonText}}</ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+  <ion-searchbar #searchBar *ngIf="canSearch" placeholder="{{searchPlaceholder}}" [debounce]="400"
+                 (keyup.enter)="$event.target.blur()" (ionChange)="search($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <cdk-virtual-scroll-viewport style="width: 100%; height: 100%;" itemSize="56" minBufferPx="900" maxBufferPx="1350">
+    <ion-list>
+      <ion-radio-group [value]="country.isoCode">
+        <ion-item style="white-space:normal" *cdkVirtualFor="let c of countries">
+          <span slot="start" class="fi fi-{{c.flagClass}}"></span>
+          <ion-label class="ion-text-nowrap">&nbsp;&nbsp;{{c.name}} <span *ngIf="dialCode">{{dialCode}}{{c.displayDialCode}}</span></ion-label>
+          <ion-radio [value]="c.isoCode" slot="end" color="primary" (click)="itemTapped(c)">
+          </ion-radio>
+        </ion-item>
+      </ion-radio-group>
+      <ion-item lines="none" *ngIf="notFound">
+        <ion-text>{{searchFailText}}</ion-text>
+      </ion-item>
+    </ion-list>
+  </cdk-virtual-scroll-viewport>
+</ion-content>

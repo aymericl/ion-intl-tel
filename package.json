@@ -1,0 +1,38 @@
+{
+  "version": "2.2.0",
+  "name": "@aymericl/ion-intl-tel",
+  "title": "Ion Intl Tel Input",
+  "private": false,
+  "description": "This is an continuation of the original project from azzamasghar1 (https://github.com/azzamasghar1/ion-intl-tel-input) which includes new features and some much requested features",
+  "author": {
+    "name": "Aymeric Laurent Guenver (Click-eat)",
+    "url": "https://github.com/aymericl"
+  },
+  "license": "See license in LICENSE",
+  "homepage": "https://github.com/azzamasghar1/ion-intl-tel-input",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azzamasghar1/ion-intl-tel-input"
+  },
+  "bugs": {
+    "url": "https://github.com/azzamasghar1/ion-intl-tel-input/issues"
+  },
+  "keywords": [
+    "ionic 7",
+    "ion-intl-tel-input",
+    "intl tel input",
+    "intl",
+    "tel",
+    "input",
+    "international",
+    "phone",
+    "phonenumber",
+    "telephone",
+    "number",
+    "elktech"
+  ],
+  "peerDependencies": {
+    "flag-icons": "^7.0.0",
+    "libphonenumber-js": "^1.10.52"
+  }
+}
