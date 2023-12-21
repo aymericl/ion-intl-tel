@@ -1,6 +1,6 @@
 {
   "version": "2.3.0",
-  "name": "@aymericl/ion-intl-tel",
+  "name": "@aymericlg/ion-intl-tel",
   "title": "Ion Intl Tel",
   "private": false,
   "description": "This is an continuation of the original project from azzamasghar1 (https://github.com/azzamasghar1/ion-intl-tel-input) which includes new features and some much requested features",

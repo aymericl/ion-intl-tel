@@ -1,18 +1,15 @@
 {
   "version": "2.3.0",
-  "name": "@aymericl/ion-intl-tel",
+  "name": "@aymeric-lg/ion-intl-tel",
   "title": "Ion Intl Tel",
   "private": false,
   "description": "This is an continuation of the original project from azzamasghar1 (https://github.com/azzamasghar1/ion-intl-tel-input) which includes new features and some much requested features",
-  "author": {
-    "name": "Aymeric Laurent Guenver (Clicklab)",
-    "url": "https://github.com/aymericl"
-  },
-  "license": "See license in LICENSE",
+  "author": "Aymeric Laurent Guenver (Clicklab)",
+  "license": "SEE LICENSE IN License.md",
   "homepage": "https://github.com/aymericl/ion-intl-tel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aymericl/ion-intl-tel"
+    "url": "git+https://github.com/aymericl/ion-intl-tel.git"
   },
   "bugs": {
     "url": "https://github.com/aymericl/ion-intl-tel/issues"
@@ -49,7 +46,7 @@
     "serve_lib": "ng build ion-intl-tel --watch",
     "npm_pack": "cd dist/ion-intl-tel && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
-    "publish": "npm run package && cd dist/ion-intl-tel && npm publish"
+    "publish": "npm run package && cd dist/ion-intl-tel && npm publish --access public"
   },
   "dependencies": {
     "@angular/cdk": "^16.2.8",
@@ -92,5 +89,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~10.9.2",
     "typescript": "5.2.2"
-  }
+  },
+  "main": "karma.conf.js"
 }
