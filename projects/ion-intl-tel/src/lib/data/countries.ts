@@ -2,6 +2,60 @@ import { CountryI } from './../models/country.model';
 
 export const countries: CountryI[] = [
     {
+        name: 'France',
+        isoCode: 'fr',
+        dialCode: '33',
+        displayDialCode: '33',
+        flagClass: 'fr',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'Belgium',
+        isoCode: 'be',
+        dialCode: '32',
+        displayDialCode: '32',
+        flagClass: 'be',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'Germany',
+        isoCode: 'de',
+        dialCode: '49',
+        displayDialCode: '49',
+        flagClass: 'de',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'Spain',
+        isoCode: 'es',
+        dialCode: '34',
+        displayDialCode: '34',
+        flagClass: 'es',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'Switzerland',
+        isoCode: 'ch',
+        dialCode: '41',
+        displayDialCode: '41',
+        flagClass: 'ch',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'United Kingdom',
+        isoCode: 'gb',
+        dialCode: '44',
+        displayDialCode: '44',
+        flagClass: 'gb',
+        priority: 0,
+        placeholder: ''
+    },
+    {
         name: 'Afghanistan',
         isoCode: 'af',
         dialCode: '93',
@@ -184,15 +238,6 @@ export const countries: CountryI[] = [
         dialCode: '375',
         displayDialCode: '375',
         flagClass: 'by',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'Belgium',
-        isoCode: 'be',
-        dialCode: '32',
-        displayDialCode: '32',
-        flagClass: 'be',
         priority: 0,
         placeholder: ''
     },
@@ -719,15 +764,6 @@ export const countries: CountryI[] = [
         placeholder: ''
     },
     {
-        name: 'France',
-        isoCode: 'fr',
-        dialCode: '33',
-        displayDialCode: '33',
-        flagClass: 'fr',
-        priority: 0,
-        placeholder: ''
-    },
-    {
         name: 'French Guiana',
         isoCode: 'gf',
         dialCode: '594',
@@ -769,15 +805,6 @@ export const countries: CountryI[] = [
         dialCode: '995',
         displayDialCode: '995',
         flagClass: 'ge',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'Germany',
-        isoCode: 'de',
-        dialCode: '49',
-        displayDialCode: '49',
-        flagClass: 'de',
         priority: 0,
         placeholder: ''
     },
@@ -1893,15 +1920,6 @@ export const countries: CountryI[] = [
         placeholder: ''
     },
     {
-        name: 'Spain',
-        isoCode: 'es',
-        dialCode: '34',
-        displayDialCode: '34',
-        flagClass: 'es',
-        priority: 0,
-        placeholder: ''
-    },
-    {
         name: 'Sri Lanka',
         isoCode: 'lk',
         dialCode: '94',
@@ -1952,15 +1970,6 @@ export const countries: CountryI[] = [
         dialCode: '46',
         displayDialCode: '46',
         flagClass: 'se',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'Switzerland',
-        isoCode: 'ch',
-        dialCode: '41',
-        displayDialCode: '41',
-        flagClass: 'ch',
         priority: 0,
         placeholder: ''
     },
@@ -2141,15 +2150,6 @@ export const countries: CountryI[] = [
         dialCode: '971',
         displayDialCode: '971',
         flagClass: 'ae',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'United Kingdom',
-        isoCode: 'gb',
-        dialCode: '44',
-        displayDialCode: '44',
-        flagClass: 'gb',
         priority: 0,
         placeholder: ''
     },

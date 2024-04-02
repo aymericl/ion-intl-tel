@@ -11,7 +11,6 @@ export class IonIntlTelInputValidators {
   static phone(control: AbstractControl): ValidationErrors | null {
     const error = { phone: true };
     let phoneNumber: PhoneNumber;
-    debugger;
     if (!control.value) {
       return error;
     }
