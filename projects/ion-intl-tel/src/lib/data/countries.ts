@@ -11,29 +11,20 @@ export const countries: CountryI[] = [
         placeholder: ''
     },
     {
+        name: 'United Kingdom',
+        isoCode: 'gb',
+        dialCode: '44',
+        displayDialCode: '44',
+        flagClass: 'gb',
+        priority: 0,
+        placeholder: ''
+    },
+    {
         name: 'Belgium',
         isoCode: 'be',
         dialCode: '32',
         displayDialCode: '32',
         flagClass: 'be',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'Germany',
-        isoCode: 'de',
-        dialCode: '49',
-        displayDialCode: '49',
-        flagClass: 'de',
-        priority: 0,
-        placeholder: ''
-    },
-    {
-        name: 'Spain',
-        isoCode: 'es',
-        dialCode: '34',
-        displayDialCode: '34',
-        flagClass: 'es',
         priority: 0,
         placeholder: ''
     },
@@ -47,11 +38,20 @@ export const countries: CountryI[] = [
         placeholder: ''
     },
     {
-        name: 'United Kingdom',
-        isoCode: 'gb',
-        dialCode: '44',
-        displayDialCode: '44',
-        flagClass: 'gb',
+        name: 'Spain',
+        isoCode: 'es',
+        dialCode: '34',
+        displayDialCode: '34',
+        flagClass: 'es',
+        priority: 0,
+        placeholder: ''
+    },
+    {
+        name: 'Germany',
+        isoCode: 'de',
+        dialCode: '49',
+        displayDialCode: '49',
+        flagClass: 'de',
         priority: 0,
         placeholder: ''
     },
