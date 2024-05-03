@@ -1,5 +1,5 @@
 {
-  "version": "2.3.2",
+  "version": "2.3.3",
   "name": "@aymericlg/ion-intl-tel",
   "title": "Ion Intl Tel",
   "private": false,
@@ -18,7 +18,7 @@
     "url": "https://github.com/aymericl/ion-intl-tel/issues"
   },
   "keywords": [
-    "ionic 6",
+    "ionic 8",
     "ion-intl-tel",
     "intl tel input",
     "intl",

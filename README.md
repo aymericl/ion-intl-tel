@@ -25,7 +25,7 @@ An Ionic component for International Phone Number Input, that allows all countri
 
 ## Supported Ionic Versions
 
-- Ionic 6 (>=6.0.0)
+- Ionic 8 (>=6.0.0)
 
 ## Supported Angular Versions
 
